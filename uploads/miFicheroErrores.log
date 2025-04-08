@@ -1,0 +1,141 @@
+====================================================================================================
+
+Error: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for db failed: Host desconocido. 
+
+Fichero: C:\xampp\htdocs\xClase\asd\registro\app\model\Usuario.php
+
+Linea: 22
+
+====================================================================================================
+
+Trace:
+
+Array
+(
+    [0] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\model\Usuario.php
+            [line] => 22
+            [function] => __construct
+            [class] => PDO
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => mysql:host=db;dbname=serafina_db;port=3306;charset=utf8mb4
+                    [1] => serafina
+                    [2] => NLy7BTNjzVEm
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\model\Usuario.php
+            [line] => 10
+            [function] => conectar
+            [class] => Usuario
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\model\Usuario.php
+            [line] => 15
+            [function] => __construct
+            [class] => Usuario
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\controller\RegistroController.php
+            [line] => 152
+            [function] => obtenerInstancia
+            [class] => Usuario
+            [type] => ::
+            [args] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\controller\RegistroController.php
+            [line] => 79
+            [function] => validarCampos
+            [class] => RegistroController
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => 
+                    [1] => 
+                    [2] => 
+                    [3] => 
+                    [4] => 
+                    [5] => 
+                    [6] => 
+                    [7] => 
+                    [8] => Array
+                        (
+                            [name] => 
+                            [full_path] => 
+                            [type] => 
+                            [tmp_name] => 
+                            [error] => 4
+                            [size] => 0
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\controller\FrontController.php
+            [line] => 44
+            [function] => registrar
+            [class] => RegistroController
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\app\controller\FrontController.php
+            [line] => 15
+            [function] => cargarControlador
+            [class] => FrontController
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => registro
+                )
+
+        )
+
+    [7] => Array
+        (
+            [file] => C:\xampp\htdocs\xClase\asd\registro\index.php
+            [line] => 9
+            [function] => manejarPeticion
+            [class] => FrontController
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+)

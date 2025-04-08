@@ -1,0 +1,8 @@
+{
+    "name": "pablo/registro-actualizado",
+    "description": "Un proyecto PHP con PHPMailer",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "*"
+    }
+}
